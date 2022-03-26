@@ -5,7 +5,7 @@ import useStyles from './styles.js'
 // we named it useStyles because makeStyles in styles.js creates a hook that we can call later on on the top of our component.
 
 
-const NewsCards = ({articles}) => {
+const NewsCards = ({ articles }) => {
   const classes = useStyles();
   return (
     <Grow in>
@@ -18,6 +18,7 @@ const NewsCards = ({articles}) => {
     ))}
     </Grid>
     </Grow>
+
   )
 }
 
