@@ -7,7 +7,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
   return (
     <Card className={classes.card}>
       <CardActionArea href={url} target="_blank">
-        <CardMedia className={classes.media} image={urlToImage || 'https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png'} title={title}/>
+        <CardMedia className={classes.media} image={urlToImage || 'https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png'} />
         <div className={classes.details}>
           <Typography variant="body2" color="textSecondary" component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
           <Typography variant="body2" color="textSecondary" component="h2">{source.name}</Typography>
