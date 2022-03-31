@@ -8,6 +8,7 @@ import useStyles from './styles.js';
 const alanKey = '99e83ca7425c523ed9b0ebb2e0621a152e956eca572e1d8b807a3e2338fdd0dc/stage';
 const App = () => {
   const [newsArticles, setNewsArticles] = useState([]);
+  const [activeArticle, setActiveArticle] = useState(-1);
   const classes = useStyles();
 
   useEffect(() => {
@@ -16,6 +17,8 @@ const App = () => {
       onCommand: ({ command, articles }) => {
         if(command  === 'newHeadlines') {
           setNewsArticles(articles);
+        } else  if (command === 'highlight') {
+          setActiveArticle((prevActiveArticle) => prevActiveArticle + 1);
         }
       }
     })
@@ -32,7 +35,7 @@ const App = () => {
         />
         Your browser does not support the video tag.
       </video> */}
-      <NewsCards articles={newsArticles} />
+      <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>
   );
 }
