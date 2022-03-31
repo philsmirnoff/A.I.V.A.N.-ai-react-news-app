@@ -73,4 +73,29 @@ export default makeStyles((theme) => ({
       height: '35vmin',
     },
   },
+  backgroundVideo: {
+  // objectFit: 'cover';
+  // marginTop: 0;
+  // width: '100vw';
+  // height: '100vh';
+  // position: 'fixed';
+  // zIndex: '-1';
+  // top: '0';
+  // left: '0';
+  position: 'fixed',
+  zIndex: '-1',
+  top: '50%',
+  left: '50%',
+  width: 'auto',
+  height: 'auto',
+  minHeight: '100%',
+  WebkitTransform: 'translate(-50%, -50%)',
+  MozTransform: 'translate(-50%, -50%)',
+  MsTransform: 'translate(-50%, -50%)',
+  transform: 'translate(-50%, -50%)',
+  display: 'inline-block',
+  [theme.breakpoints.down('lg')]: {
+    display: 'none',
+  },
+}
 }));

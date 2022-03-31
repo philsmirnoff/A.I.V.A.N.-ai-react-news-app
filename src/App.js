@@ -3,7 +3,7 @@ import { Typography } from '@material-ui/core';
 import alanBtn from '@alan-ai/alan-sdk-web';
 import wordsToNumbers from 'words-to-numbers';
 import NewsCards from './components/NewsCards/NewsCards';
-// import backgroundVideo from './video/video.mp4';
+import backgroundVideo from './video/video.mp4';
 import useStyles from './styles.js';
 
 
@@ -41,21 +41,22 @@ const App = () => {
       <div className={classes.logoContainer}>
       {/* <img src="https://images.app.goo.gl/HdgiZfrarsqqF2Eq8" className={classes.alanLogo} alt="logo" />
       </div> */}
-      {/* <video loop muted autoPlay id='video'>
-        <source
-          src={backgroundVideo}
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video> */}
           {newsArticles.length ? (
                     <div className={classes.infoContainer}>
                         <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Open article number [4]</Typography></div>
                         <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
                     </div>
                 ) : null}
+
                 <img src="https://www.fintechfutures.com/files/2017/11/AI-FOT-A.jpg" className={classes.logo} alt="AI Logo" />
             </div>
+            <video className={classes.backgroundVideo} loop muted autoPlay id='video' >
+        <source
+          src={backgroundVideo}
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>
   );
