@@ -20,7 +20,7 @@ export default makeStyles((theme) => ({
     fontSize: '4.5rem',
     fontWeight: 'bold',
     color: 'white',
-    marginLeft: '10%',
+    marginLeft: '15%',
     [theme.breakpoints.down('sm')]: {
       fontSize: '3rem',
       marginLeft: '0',
