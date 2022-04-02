@@ -23,7 +23,7 @@ export default makeStyles((theme) => ({
     marginLeft: '15%',
     [theme.breakpoints.down('sm')]: {
       fontSize: '3rem',
-      marginLeft: '0',
+      marginLeft: '10%',
   },
 },
   link: {
