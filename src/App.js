@@ -46,7 +46,7 @@ const App = () => {
                     </div>
                 ) : null}
 
-                <Typography variant="h2" component="h2" className={classes.title}>A.I.V.A.N</Typography>
+                <Typography variant="h2" component="h2" className={classes.title}>A.I.V.A.N.</Typography>
                <img src="https://2img.net/r/hpimg15/pics/654844mamania.gif" className={classes.logo} alt="AI Logo" />
            </div>
             <video className={classes.backgroundVideo} loop muted autoPlay id='video' >
