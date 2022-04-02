@@ -4,9 +4,9 @@ import NewsCard from '../NewsCard/NewsCard';
 import useStyles from './styles.js'
 // we named it useStyles because makeStyles in styles.js creates a hook that we can call later on on the top of our component.
 const infoCards = [
-  { title: 'Small talk', text: 'What\'s your name? What are you? Give me the latest news'},
+  { title: 'Small talk', text: 'Hi! How are you? What\'s your name? What are you? Give me the latest news'},
   { title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
-  { title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with PlayStation 5' },
+  { title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with Bitcoin?' },
   { title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN' },
 ];
 

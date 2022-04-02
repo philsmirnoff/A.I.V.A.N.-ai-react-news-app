@@ -20,14 +20,19 @@ export default makeStyles((theme) => ({
     fontSize: '4.5rem',
     fontWeight: 'bold',
     color: 'white',
+    marginLeft: '15%',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '3rem',
+      marginLeft: '0',
   },
+},
   link: {
     textDecoration: 'none',
     color: 'rgba(21, 101, 192)',
   },
   image: {
     marginLeft: 20,
-  },
+},
   card: {
     display: 'flex',
     justifyContent: 'center',
@@ -36,7 +41,6 @@ export default makeStyles((theme) => ({
     padding: '3%',
     borderRadius: 10,
     color: 'white',
-    // backgroundColor: 'rgba(21, 101, 192)',
     boxShadow: '0 15px 15px 0 crimson',
     margin: '0 12px',
     textAlign: 'center',
@@ -72,11 +76,14 @@ export default makeStyles((theme) => ({
   },
   logo: {
     height: '27vmin',
+    width: '20vmin',
     borderRadius: '15%',
-    padding: '0 5%',
+    padding: '0',
     margin: '3% 0',
+    boxShadow: '0 15px 15px 0 crimson',
     [theme.breakpoints.down('sm')]: {
-      height: '35vmin',
+      height: '45vmin',
+      width: '40vmin',
     },
 
   },

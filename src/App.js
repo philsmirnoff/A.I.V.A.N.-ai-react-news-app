@@ -39,8 +39,6 @@ const App = () => {
   return (
     <div>
       <div className={classes.logoContainer}>
-      {/* <img src="https://images.app.goo.gl/HdgiZfrarsqqF2Eq8" className={classes.alanLogo} alt="logo" />
-      </div> */}
           {newsArticles.length ? (
                     <div className={classes.infoContainer}>
                         <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Open article number [4]</Typography></div>
@@ -49,11 +47,8 @@ const App = () => {
                 ) : null}
 
                 <Typography variant="h2" component="h2" className={classes.title}>A.I.V.A.N</Typography>
-                {/* <img src="https://www.fintechfutures.com/files/2017/11/AI-FOT-A.jpg" className={classes.logo} alt="AI Logo" /> */}
-                <img src="https://2img.net/r/hpimg15/pics/654844mamania.gif" className={classes.logo} alt="AI Logo" />
-
-                {/* <img src="https://bonzonate.co.za/images/2021/02/14/faceman.gif" className={classes.logo} alt="AI Logo" /> */}
-            </div>
+               <img src="https://2img.net/r/hpimg15/pics/654844mamania.gif" className={classes.logo} alt="AI Logo" />
+           </div>
             <video className={classes.backgroundVideo} loop muted autoPlay id='video' >
         <source
           src={backgroundVideo}
