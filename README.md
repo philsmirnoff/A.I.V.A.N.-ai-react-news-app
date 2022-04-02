@@ -1,4 +1,4 @@
-This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News App. Created using JavaScript, React, News api from news.api.org, and Alan Ai - it is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. 
+This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News App. Created using JavaScript, React, Material Ui, News api from news.api.org, and Alan Ai - it is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. 
 Alan AI: https://alan.app/
 
 Live version: https://aivan.herokuapp.com/
