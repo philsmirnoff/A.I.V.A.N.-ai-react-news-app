@@ -11,7 +11,9 @@ const styles = makeStyles({
     padding: '10%',
     borderRadius: 10,
     color: 'white',
-  },
+    baclgroundColor: 'rgba(21, 101, 192)',
+    boxShadow: '0 15px 15px 0 crimson',
+},
   infoCard: {
     display: 'flex', flexDirection: 'column', textAlign: 'center',
   },

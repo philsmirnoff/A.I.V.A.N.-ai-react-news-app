@@ -48,7 +48,11 @@ const App = () => {
                     </div>
                 ) : null}
 
-                <img src="https://www.fintechfutures.com/files/2017/11/AI-FOT-A.jpg" className={classes.logo} alt="AI Logo" />
+                <Typography variant="h2" component="h2" className={classes.title}>A.I.V.A.N</Typography>
+                {/* <img src="https://www.fintechfutures.com/files/2017/11/AI-FOT-A.jpg" className={classes.logo} alt="AI Logo" /> */}
+                <img src="https://2img.net/r/hpimg15/pics/654844mamania.gif" className={classes.logo} alt="AI Logo" />
+
+                {/* <img src="https://bonzonate.co.za/images/2021/02/14/faceman.gif" className={classes.logo} alt="AI Logo" /> */}
             </div>
             <video className={classes.backgroundVideo} loop muted autoPlay id='video' >
         <source
