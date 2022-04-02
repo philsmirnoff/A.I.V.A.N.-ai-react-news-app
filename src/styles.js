@@ -20,7 +20,7 @@ export default makeStyles((theme) => ({
     fontSize: '4.5rem',
     fontWeight: 'bold',
     color: 'white',
-    marginLeft: '15%',
+    marginLeft: '10%',
     [theme.breakpoints.down('sm')]: {
       fontSize: '3rem',
       marginLeft: '0',
@@ -62,6 +62,7 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column',
     },
+    marginleft: '10%',
   },
   logoContainer: {
     padding: '0 5%',
@@ -80,6 +81,7 @@ export default makeStyles((theme) => ({
     borderRadius: '15%',
     padding: '0',
     margin: '3% 0',
+    marginLeft: '10%',
     boxShadow: '0 15px 15px 0 crimson',
     [theme.breakpoints.down('sm')]: {
       height: '45vmin',
