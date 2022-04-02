@@ -1,3 +1,4 @@
+![aivan](https://user-images.githubusercontent.com/32605566/161364875-efed4d08-e2c9-4e0d-89c8-10c19a84d3ff.jpg)
 This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News App. Created using JavaScript, React, Material Ui, News api from news.api.org, and Alan Ai - it is a revolutionary speech recognition software that allows you to add voice capabilities to your applications.
 Alan AI: https://alan.app/
 
