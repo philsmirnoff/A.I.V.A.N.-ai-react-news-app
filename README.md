@@ -4,7 +4,7 @@
 ## Background and Overview
 
 ![aivan](https://user-images.githubusercontent.com/32605566/161364875-efed4d08-e2c9-4e0d-89c8-10c19a84d3ff.jpg)
-This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app that allows using voice commands get latest news articles, based on categories, terms and sources, request AI reading it for the user as well as have a small chat with AI bot.
+This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app that allows using voice commands get latest news articles, based on categories, terms and sources, request AI reading its headlines for the user as well as have a small chat with AI bot.
 
 ## Technologies
 - JavaScript
