@@ -7,7 +7,13 @@
 This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app that allows user using voice commands get latest news articles based on categories, terms and sources, request AI reading it for the user as well as have small chat with AI bot.
 
 ## Technologies
-- JavaScript, React, Material UI, News api from news.api.org, and Alan Ai - it is a revolutionary speech recognition software that allows you to add voice capabilities to your applications.
+- JavaScript
+- React
+- Material UI
+- [News api](https://newsapi.org/) 
+- [Alan AI](https://alan.app/) 
+
+it is a revolutionary speech recognition software that allows you to add voice capabilities to your applications.
 Alan AI: https://alan.app/
 
 
