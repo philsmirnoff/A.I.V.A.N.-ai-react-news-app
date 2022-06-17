@@ -4,18 +4,13 @@
 ## Background and Overview
 
 ![aivan](https://user-images.githubusercontent.com/32605566/161364875-efed4d08-e2c9-4e0d-89c8-10c19a84d3ff.jpg)
-This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app. Created using JavaScript, React, Material Ui, News api from news.api.org, and Alan Ai - it is a revolutionary speech recognition software that allows you to add voice capabilities to your applications.
+This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app that allows user using voice commands get latest news articles based on categories, terms and sources, request AI reading it for the user as well as have small chat with AI bot.
+
+
+Created using JavaScript, React, Material UI, News api from news.api.org, and Alan Ai - it is a revolutionary speech recognition software that allows you to add voice capabilities to your applications.
 Alan AI: https://alan.app/
 
-Live version: https://aivan.herokuapp.com/
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
