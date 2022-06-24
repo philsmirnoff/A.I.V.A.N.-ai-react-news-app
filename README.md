@@ -2,8 +2,9 @@
 
 [Click here for the live site](https://aivan.herokuapp.com/)
 
+![](https://user-images.githubusercontent.com/32605566/175749649-ac354378-996b-4a4b-881b-75e5d2706b7e.gif)
 
-![aivan](https://user-images.githubusercontent.com/32605566/161364875-efed4d08-e2c9-4e0d-89c8-10c19a84d3ff.jpg)
+
 This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app build with React and paired with backend integration of [Alan AI](https://alan.app/).
 It allows using voice commands get latest news articles, based on categories, terms and sources, request AI reading its headlines for the user, opening the source article for more in-deph reading as well as have a small chat with AI bot. The name A.I.V.A.N. was inspired by J.A.R.V.I.S(Just A Rather Very Intelligent System), AI assistant of Tony Stark from "Iron Man" movies.😉
 
