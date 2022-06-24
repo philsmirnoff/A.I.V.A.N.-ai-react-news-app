@@ -4,7 +4,7 @@
 
 
 ![aivan](https://user-images.githubusercontent.com/32605566/161364875-efed4d08-e2c9-4e0d-89c8-10c19a84d3ff.jpg)
-This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app build with React and paired with backend integration of [Alan AI](https://alan.app/). 
+This is A.I.V.A.N. - Artificial Intelligence Voice Assistant News app build with React and paired with backend integration of [Alan AI](https://alan.app/).
 It allows using voice commands get latest news articles, based on categories, terms and sources, request AI reading its headlines for the user, opening the source article for more in-deph reading as well as have a small chat with AI bot. The name A.I.V.A.N. was inspired by J.A.R.V.I.S(Just A Rather Very Intelligent System), AI assistant of Tony Stark from "Iron Man" movies.😉
 
 
@@ -12,8 +12,8 @@ It allows using voice commands get latest news articles, based on categories, te
 - JavaScript
 - React.js
 - Material UI
-- [News api](https://newsapi.org/) 
-- [Alan AI](https://alan.app/) 
+- [News api](https://newsapi.org/)
+- [Alan AI](https://alan.app/)
 
 
 ## Usage
@@ -21,7 +21,7 @@ Reading newspapers takes up a lot of time and the reader
 usually spends reading about articles in which they are not
 interested. By using this project, the user can get to hear
 about all the important headlines of their chosen topic on
-the go. 
+the go.
 
 ## Voice Commands
 Press the mic and try to say:
@@ -76,16 +76,29 @@ Then in our client we can set our commands:
 const alanKey = "YOUR-ALAN-KEY";
 
 useEffect(() => {
-  alanBtn({
-    key: alanKey,
-    onCommand: ({ command, articles, number }) => {
-      if (command === "newHeadlines") {
-        setNewsArticles(articles);
-        setActiveArticle(-1);
+    alanBtn({
+      key: alanKey,
+      onCommand: ({ command, articles, number }) => {
+        if(command  === 'newHeadlines') {
+          console.log(articles);
+          setNewsArticles(articles);
+          setActiveArticle(-1)
+        } else  if (command === 'highlight') {
+          setActiveArticle((prevActiveArticle) => prevActiveArticle + 1);
+        } else if (command === 'open') {
+          const parsedNumber = number.length > 2 ? wordsToNumbers(number, { fuzzy: true }) : number;
+          const article = articles[parsedNumber - 1];
+
+          if(parsedNumber > 20) {
+            alanBtn().playText('Please try that again...');
+          } else if(article) {
+          window.open(article.url, '_blank');
+          alanBtn().playText('Opening...');
+        }
       }
-    },
-  });
-}, []);
+    }
+    })
+  }, [])
 ```
 
 

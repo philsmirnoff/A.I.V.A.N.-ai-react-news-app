@@ -18,6 +18,7 @@ const App = () => {
       key: alanKey,
       onCommand: ({ command, articles, number }) => {
         if(command  === 'newHeadlines') {
+          console.log(articles);
           setNewsArticles(articles);
           setActiveArticle(-1)
         } else  if (command === 'highlight') {
@@ -41,7 +42,7 @@ const App = () => {
       <div className={classes.logoContainer}>
           {newsArticles.length ? (
                     <div className={classes.infoContainer}>
-                        <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Open article number [4]</Typography></div>
+                        <div className={classes.card}><Typography variant="h5" component="h2">Press the mic and say: <br /><br />Open article number [4]</Typography></div>
                         <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Go back</Typography></div>
                     </div>
                 ) : null}

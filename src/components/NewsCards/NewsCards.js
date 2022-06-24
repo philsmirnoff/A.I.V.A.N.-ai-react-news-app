@@ -6,7 +6,7 @@ import useStyles from './styles.js'
 const infoCards = [
   { title: 'Small talk', text: 'Hi! How are you? What\'s your name? What are you? Give me the latest news!'},
   { title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news!' },
-  { title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'Give me the news on Bitcoin!' },
+  { title: 'News by Terms', info: 'Bitcoin, Elon Mask, Ukraine...', text: 'Give me the news on Bitcoin!' },
   { title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN!' },
 ];
 
@@ -31,7 +31,7 @@ const NewsCards = ({ articles, activeArticle }) => {
                      <br />
                       {infoCard.info}
                      </Typography>) : null }
-              <Typography variant="h6">Try saying: <br /> <i>{infoCard.text}</i></Typography>
+              <Typography variant="h6">Press the mic and say: <br /> <i>{infoCard.text}</i></Typography>
             </div>
         </Grid>
         ))}
