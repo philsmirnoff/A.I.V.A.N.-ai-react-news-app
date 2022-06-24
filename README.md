@@ -26,13 +26,13 @@ the go.
 ## Voice Commands
 Press the mic and try to say:
 
- - Give me the latest news ---------------> This will provide the latest news worldwide
- - Give me the news on Bitcoin(or any other topic) ------------------> This will provide articles related to the topic
- - Tell me the latest news from CNN(or any other source like BBC news,wired...)-----------------> This will provide latest from CNN
+ - Give me the latest news ---------------> This will provide the latest news worldwide.
+ - Give me the news on Bitcoin(or any other topic) ------------------> This will provide articles related to the topic.
+ - Tell me the latest news from CNN(or any other source like BBC news,wired...)-----------------> This will provide latest from CNN.
 
-This app also allows A.I.V.A.N to read the headlines if the user wants and could also open the news article( Say 'Open 5' to open article number 5 on the page)
+This app also allows A.I.V.A.N to read the headlines if the user wants and could also open the news article( Say 'Open 5' to open article number 5 on the page).
 
-And wait, you can also have a small talk with Alan if you wish ------> Try asking general questions like "Hi! How are you? What are you?" to check his response
+And wait, you can also have a small talk with Alan if you wish ------> Try asking general questions like "Hi! How are you? What are you?" to check his response.
 
 ## Code Snippets
 Alan Platform provides an AI backend for the application to create conversational experiences. Using Alan Studio, we can specify something called Intents. Or rather a query that we want to ask A.I.V.A.N. and then he can say something back.
