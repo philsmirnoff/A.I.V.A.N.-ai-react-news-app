@@ -1,4 +1,4 @@
-# A.I.V.A.N.
+# A.I.V.A.N. (Artificial Intelligence Voice Assistant News)
 
 [Click here for the live site](https://aivan.herokuapp.com/)
 
